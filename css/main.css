@@ -44,7 +44,7 @@ body {
  * links - (_document-setup) 
  * ------------------------------------------------------------------- */
 a, a:visited {
-	color: #057f78;
+	color: #a6b4c3;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -52,7 +52,7 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus {
-	color: #000000;
+	color: #fff;
 }
 
 /* ===================================================================
@@ -1021,6 +1021,17 @@ header .social-links ul li a:focus {
 	position: relative;
 	font-family: Trebuchet MS;
 }
+
+.main-content-tablecell h1 a {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+.main-content-tablecell h1 a:hover {
+	color: #555;
+}
+
+
 .main-content-tablecell p {
 	color: rgba(255, 255, 255, 0.3);
 	font-family: "roboto-regular", sans-serif;
@@ -1280,7 +1291,7 @@ header .social-links ul li a:focus {
 	line-height: 1.267;
 }
 #info .tabs-wrap .tab-entry-intro p.lead {
-	color: rgba(17, 17, 17, 0.5);
+	color: rgba(17, 17, 17, 0.9);
 }
 #info .tabs-wrap .tab-entry-intro .with-bottom-line {
 	position: relative;
