@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'info@rlc.ventures';
+$siteOwnersEmail = 'reece@rlc.london';
 
 
 if($_POST) {
